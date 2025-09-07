@@ -74,7 +74,7 @@ This demonstrates the "fire-and-forget" nature of UDP. The client's operating sy
 2. **Run the Server:** In the first terminal, start the TCP server. It will listen for an incoming connection.
 
 ```bash
-   python tcp-server.py  
+   python3 tcp-server.py  
    # Expected output:  
    # TCP Server listening on 127.0.0.1:12346
 ```
@@ -82,7 +82,7 @@ This demonstrates the "fire-and-forget" nature of UDP. The client's operating sy
 3. **Run the Client:** In the second terminal, run the client. It will connect to the server, send a message, and receive an echo.
 
 ```bash
-   python tcp-client.py  
+   python3 tcp-client.py  
    # Expected output:  
    # Sent: 'Hello, TCP Server!'  
    # Received echo: 'Hello, TCP Server!'
@@ -93,7 +93,7 @@ This demonstrates the "fire-and-forget" nature of UDP. The client's operating sy
 5. Run the client again from the second terminal.
 
 ```bash
-   python tcp-client.py  
+   python3 tcp-client.py  
    # Expected output:  
    # Traceback (most recent call last):  
    #   ...  
